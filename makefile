@@ -1,10 +1,10 @@
 #makefile
 
-all: echo-client-server
+all: echo-server
 
-echo-client-server : main.cpp
-	gcc -o echo-client-server main.cpp
+echo-server : main.cpp
+	gcc -o echo-server main.cpp
 
 clean :
-	rm -f echo-client-server
+	rm -f echo-server
 	rm -f *.o
