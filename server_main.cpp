@@ -103,8 +103,8 @@ int main(int argc, char* argv[])
         }
 	for(i=2; i<argc; i++)
 	{
-		if(!strcmp(argv[i], op_e)) echo == 1;
-		else if(!strcmp(argv[i], op_b)) broad == 1;
+		if(!strcmp(argv[i], op_e)) echo = 1;
+		else if(!strcmp(argv[i], op_b)) broad = 1;
 		else
 		{
 			err_msg();
